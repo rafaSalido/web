@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #FFFFFF;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar img {
+    height: 70px; /* Ajusta la altura del logo según tus necesidades */
+    margin-left: 20px; /* Espacio a la izquierda del logo */
+		margin-right: 10px; /* Reduce el espacio a la derecha del logo */
+}
+
+.navbar a {
+    color: #6827A1;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.content {
+		padding-top: 70px; /* Altura del menú fijo */
+}
+
+.content img {
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho de la pantalla */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left {
+    flex: 1.5;
+}
+
+.footer-left img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.footer-right {
+    flex: 2;
+    background-color: rgba(253, 142, 45, 0.36); /* Naranja con 36% de opacidad */
+    color: black;
+    text-align: left;
+    padding-left: 30px; /* Añade un espacio interno de 10px en todos los lados */
+}
+
+.footer-right a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-right a:hover {
+    text-decoration: underline;
+}
+
+.enlaces img {
+    height: 30px;
+    user-select: none; /* Evita la selección del texto */
+    pointer-events: none; /* Evita el arrastre de la imagen */
+}
+
+.footer-redes {
+    flex: 0.8;
+    height: 299px;
+    background-color: rgba(253, 142, 45, 0.36); /* Naranja con 36% de opacidad */
+    align-content: center;
+}
+
+.redes img {
+    margin: 0 10px; /* Añade espacio entre las imágenes */
+    width: 50px; /* Ajusta el tamaño de las imágenes según sea necesario */
+    height: auto;
+    user-select: none; /* Evita la selección del texto */
+    pointer-events: none; /* Evita el arrastre de la imagen */
+}
